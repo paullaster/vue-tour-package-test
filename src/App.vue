@@ -6,6 +6,8 @@
     <div id="id3"> This is the third place</div>
     <div id="id4"> This is the fourth place</div>
     <div id="id5"> this is the last place</div>
+
+    <v-tour name="myTour" :steps="steps"></v-tour>
   </div>
 </template>
 
