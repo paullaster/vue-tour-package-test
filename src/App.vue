@@ -18,7 +18,10 @@
       return{
         myOptions: {
           labels: {
-
+            buttonSkip: 'Exit tour',
+            buttonPrevious: 'Previous',
+            buttonNext: 'Next',
+            buttonStop: 'Finish'
           }
         },
         steps: [
