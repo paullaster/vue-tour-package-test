@@ -18,15 +18,15 @@
       return{
         steps: [
           {
-            target: '#v-step-0',  // We're using document.querySelector() under the hood
+            target: '#id1',  // We're using document.querySelector() under the hood
             content: `Discover <strong>Vue Tour</strong>!`
           },
           {
-            target: '.v-step-1',
+            target: '#id2',
             content: 'An awesome plugin made with Vue.js!'
           },
           {
-            target: '[data-v-step="2"]',
+            target: '#id3',
             content: 'Try it, you\'ll love it!<br>You can put HTML in the steps and completely customize the DOM to suit your needs.',
             params: {
               placement: 'top'
