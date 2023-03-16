@@ -16,6 +16,11 @@
     name: "App",
     data(){
       return{
+        myOptions: {
+          labels: {
+
+          }
+        },
         steps: [
           {
             target: '#id1',  // We're using document.querySelector() under the hood
